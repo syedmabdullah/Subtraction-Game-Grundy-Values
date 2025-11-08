@@ -7,7 +7,7 @@ This project computes **Grundy (SG) values** for subtraction games and detects *
 
 A **subtraction game** is played with a pile of tokens. On each turn, a player may remove a number of tokens chosen from a **fixed allowed move set** (for example `{3, 5, 6}`). The player who cannot make a move (because the pile is too small) **loses**.
 
-To analyze which player is winning, we compute **Grundy values** (also called Sprague-Grundy or SG values).  
+To analyze which player is winning, we compute Grundy values (also called Sprague-Grundy or SG values).  
 These values classify positions as:
 
 | SG(n) Value | Meaning | Outcome |
@@ -19,12 +19,10 @@ Grundy values are computed recursively using the **mex rule**, where the **mex**
 
 For many subtraction games, the SG sequence eventually becomes **periodic**, meaning a repeating cycle appears for sufficiently large pile sizes. This project also detects that periodic cycle automatically.
 
----
 
-## 🎲 Walk-Through Example: Who Wins?
+## Walk-Through Example: Who Wins?
 
-Suppose the allowed moves are: {3, 5, 6}
-
+Suppose the allowed moves are: `{3, 5, 6}`
 
 Start with a pile of **12** tokens. Player A goes first.
 
@@ -41,7 +39,6 @@ Some SG values (computed automatically):
 **Player A** wants to move to a **losing** position → SG = 0.  
 Since SG(9) = 0, Player A removes **3** tokens:
 
-
 Now **Player B** is forced into a losing state.  
 Any move B makes leads to a winning position for A.
 
@@ -52,19 +49,17 @@ This example shows how SG values directly determine:
 - which moves force victory
 - how optimal play requires no guessing
 
----
 
-## 📂 Files Included
+## Files Included
 
 | File | Description |
 |------|-------------|
 | `SGValueCalcV3.java` | Computes SG values when the **allowed move set has 3 elements** |
-| `SGValueCalcV7.java` | Computes SG values when the **allowed move set has 4 elements**, with stronger periodicity detection |
-| *(optional)* `examples/` | Sample input/output demonstrations |
+| `SGValueCalcV7.java` | Computes SG values when the **allowed move set has 4 elements** |
 
 ---
 
-## ▶️ How to Compile & Run
+## How to Compile & Run
 
 ### **1) Compile**
 
