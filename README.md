@@ -61,7 +61,7 @@ This example shows how SG values directly determine:
 
 ## How to Compile & Run
 
-### **1) Compile**
+ **1) Compile**
 
 ### **2) Run**
 
