@@ -33,18 +33,7 @@ To play optimally, a player in a winning position should move to a losing one. S
 
 ### Files Included
 
-- **SGValueCalcV3.java** — Computes SG values for subtraction games where the allowed move set contains **3 elements**.
-- **SGValueCalcV7.java** — Computes SG values for subtraction games where the allowed move set contains **4 elements**, and includes extended periodicity detection.
-
-
-### How to Compile & Run
-
- **1) Compile**
- **2) Run**
- **3) When prompted, enter the allowed moves (exactly 3 or 4):**
- **4) Then enter the maximum pile size you want to compute up to:**
-
-
-
+- **SGValueCalcV3.java:** Computes SG values for subtraction games where the allowed move set contains **3 elements**.
+- **SGValueCalcV7.java:** Computes SG values for subtraction games where the allowed move set contains **4 elements**, and includes extended periodicity detection.
 
 
