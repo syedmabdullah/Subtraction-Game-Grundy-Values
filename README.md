@@ -61,11 +61,11 @@ This example shows how SG values directly determine:
 
 ## How to Compile & Run
 
- **1) Compile**
+### **1) Compile**
 
 ### **2) Run**
 
-### **3) When prompted, enter the allowed moves (exactly 4):**
+### **3) When prompted, enter the allowed moves (exactly 3 or 4):**
 
 ### **4) Then enter the maximum pile size you want to compute up to:**
 
