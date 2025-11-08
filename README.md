@@ -44,10 +44,7 @@ Any move B makes leads to a winning position for A.
 
 Eventually, Player B cannot move → **Player A wins.**
 
-This example shows how SG values directly determine:
-- which positions are winning vs losing
-- which moves force victory
-- how optimal play requires no guessing
+This example shows how SG values directly determine which positions are winning vs losing, and how optimal play requires no guessing
 
 
 ## Files Included
